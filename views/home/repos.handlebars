@@ -1,0 +1,17 @@
+
+  <div class="container">
+    <table class="table" style="background-color: white">
+      <thead>
+        <tr>
+          <th scope="col">{{username}}'s repos</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#each repos}}
+            <tr>
+                <td>{{full_name}}</td>
+            </tr>
+        {{/each}}
+      </tbody>
+    </table>
+</div>
